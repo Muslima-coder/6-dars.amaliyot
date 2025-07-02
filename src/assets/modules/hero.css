@@ -1,0 +1,68 @@
+
+/* Hero part */
+.hero-section{
+  padding: 70px 0 77px ;
+}
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-content-wrapper{
+  width: 647px;
+   
+}
+.hero-content-wrapper>h1{
+font-weight: 700;
+font-size: 72px;
+line-height: 82.5px;
+letter-spacing: 2px;
+color: black;
+margin-bottom: 34px ;
+}
+.hero-content-wrapper>h1 > span{
+font-weight: 700;
+font-size: 72px;
+line-height: 82.5px;
+letter-spacing: 2px;
+color: rgba(255, 138, 86, 1);
+}
+.hero-content-wrapper>p{
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+letter-spacing: 0%;
+color: rgba(102, 102, 102, 1);
+margin-bottom: 38px;
+}
+
+.hero-content-btn-wrapper{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.hero-content-btn-wrapper>button{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  width: 151px ;
+  height: 58px;
+  border: solid 2px black;
+  font-size: 18px;
+  transition: all 0.4s;
+}
+.hero-content-btn-wrapper>button:hover{
+    width: 151px ;
+  height: 58px;
+   background-color: white;
+  color: black;
+   border: solid 2px black;
+  font-size: 18px;
+}
+.hero-content-btn-wrapper>a{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+  font-size: 18px;
+}
