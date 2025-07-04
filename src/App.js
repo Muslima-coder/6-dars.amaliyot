@@ -1,9 +1,4 @@
-
-import Header from "./assets/modules/Header";
-import Hero from "./assets/modules/Hero";
-import Projects from "./assets/modules/projects";
-import Services from "./assets/modules/service";
-import TrustedBy from "./assets/modules/trusted";
+import {Header, Hero, Trusted, Service, Projects, Latest, ThatsMe, Education} from "./modules"
 
 function App() {
   return (
@@ -11,9 +6,12 @@ function App() {
     <Header/>
     <main>
     <Hero/>
-    <TrustedBy/>
-    <Services/>
+    <Trusted/>
+    <Service/>
     <Projects/>
+    <Latest/>
+    <ThatsMe/>
+    <Education/>
     </main>
     </>
   );

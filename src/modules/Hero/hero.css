@@ -41,7 +41,7 @@ margin-bottom: 38px;
   align-items: center;
   gap: 40px;
 }
-.hero-content-btn-wrapper>button{
+.btn{
   cursor: pointer;
   background-color: black;
   color: white;
@@ -51,7 +51,7 @@ margin-bottom: 38px;
   font-size: 18px;
   transition: all 0.4s;
 }
-.hero-content-btn-wrapper>button:hover{
+.btn:hover{
     width: 151px ;
   height: 58px;
    background-color: white;

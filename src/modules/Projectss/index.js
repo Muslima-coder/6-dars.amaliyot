@@ -1,7 +1,5 @@
+import { pimg1, pimg2, pimg3 } from '../../assets/images'
 import './projects.css'
-import img1 from "../images/project1.png"
-import img2 from "../images/project2.png"
-import img3 from "../images/project3.png"
 
 function Projects(){
      return(
@@ -18,7 +16,7 @@ function Projects(){
                 <marquee behavior="scroll">
                 <ul className='project-list'>
                     <li className='project-item'>
-                        <img src={img1} alt="img" width={468} height={305} />
+                        <img src={pimg1} alt="img" width={468} height={305} />
                         <div className='item-text-wrapper'>
                             <p>Branding</p>
                         <strong>Soulful Rebrand</strong>
@@ -31,7 +29,7 @@ function Projects(){
                         </div>
                     </li>
                     <li className='project-item'>
-                        <img src={img2} alt="img" width={468} height={305} />
+                        <img src={pimg2} alt="img" width={468} height={305} />
                          <div className='item-text-wrapper'>
                             <p>Branding</p>
                         <strong>Soulful Rebrand</strong>
@@ -44,7 +42,7 @@ function Projects(){
                         </div>
                     </li>
                     <li className='project-item'>
-                        <img src={img3} alt="img" width={468} height={305} />
+                        <img src={pimg3} alt="img" width={468} height={305} />
                         <div className='item-text-wrapper'>
                             <p>Branding</p>
                         <strong>Soulful Rebrand</strong>

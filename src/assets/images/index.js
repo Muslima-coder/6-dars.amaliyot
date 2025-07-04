@@ -1,0 +1,18 @@
+import Bro from "./bro.png"
+import Logo from "./logo.svg"
+import pimg1 from "./project1.png"
+import pimg2 from "./project2.png"
+import pimg3 from "./project3.png"
+import logoIpsum1 from "./trusted1.png"
+import logoIpsum2 from "./trusted2.png"
+import logoIpsum3 from "./trusted3.png"
+import logoIpsum4 from "./trusted4.png"
+import simg1 from "./service1.png"
+import simg2 from "./service2.png"
+import simg3 from "./service3.png"
+import thatsme1 from "./thatsme1.png"
+import thatsme2 from "./thatsme2.png"
+import thatsme3 from "./thatsme3.png"
+import thatsme4 from "./thatsme4.png"
+
+export {Bro, Logo, pimg1, pimg2, pimg3, logoIpsum1, logoIpsum2, logoIpsum3, logoIpsum4, simg1, simg2, simg3, thatsme1, thatsme2, thatsme3, thatsme4}

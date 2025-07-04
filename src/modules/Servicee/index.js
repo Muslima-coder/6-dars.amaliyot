@@ -1,8 +1,7 @@
+import { simg1, simg2, simg3 } from '../../assets/images';
 import './service.css';
-import img1 from "../images/service1.png"
-import img2 from "../images/service2.png"
-import img3 from "../images/service3.png"
-function Services(){
+
+function Servicee(){
     return(
         <section className='service-section'>
             <div className='container'>
@@ -12,7 +11,7 @@ function Services(){
                 </div>
                 <ul className='service-list'>
                     <li className='service-item'>
-                        <img src={img1} alt="img" width={70} height={70}/>
+                        <img src={simg1} alt="img" width={70} height={70}/>
                         <p>What I can do for you</p>
                         <span>Faster, better products that your users love. Here's all the services I provide:</span>
                        <div className='item-text'>
@@ -38,7 +37,7 @@ function Services(){
                         
                     </li>
                       <li className='service-item'>
-                        <img src={img2} alt="img" width={70} height={70}/>
+                        <img src={simg2} alt="img" width={70} height={70}/>
                         <p>What I can do for you</p>
                         <span>Faster, better products that your users love. Here's all the services I provide:</span>
                          <div className='item-text'>
@@ -63,7 +62,7 @@ function Services(){
                        </div>
                     </li>
                       <li className='service-item'>
-                        <img src={img3} alt="img" width={70} height={70}/>
+                        <img src={simg3} alt="img" width={70} height={70}/>
                         <p>What I can do for you</p>
                         <span>Faster, better products that your users love. Here's all the services I provide:</span>
                         <div className='item-text'>
@@ -93,4 +92,4 @@ function Services(){
         </section>
     )
 }
-export default Services
+export default Servicee
